@@ -3,7 +3,7 @@ package pkg1
 import (
 	"fmt"
 
-	"github.com/fgimenez/test-bazel/pkg/util"
+	"github.com/fgimenez/bazel-test/pkg/util"
 )
 
 func Pkg1() string {
