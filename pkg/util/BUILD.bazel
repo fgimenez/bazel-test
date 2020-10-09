@@ -3,6 +3,6 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "util",
     srcs = ["main.go"],
-    importpath = "",
+    importpath = "github.com/fgimenez/bazel-test/pkg/util",
     visibility = ["//visibility:public"],
 )
